@@ -1,13 +1,15 @@
-# Template_APIAUTO
-Selamat datang di Template_APIAUTO! Ini adalah template dasar untuk memulai pengembangan proyek API otomatisasi (API automation) dengan menggunakan berbagai bahasa pemrograman dan alat yang tersedia. Proyek ini dirancang untuk membantu Anda memulai dengan cepat dalam menguji, mengelola, dan mendokumentasikan API Anda.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DummyJSON</title>
+</head>
+<body>
+    <h1>DummyJSON</h1>
+    <p>Selamat datang di DummyJSON! Ini adalah template dasar untuk memulai pengembangan proyek yang menggunakan data dummy atau palsu (dummy data) untuk pengujian, prototipe, atau tujuan pengembangan lainnya. Proyek ini dirancang untuk membantu Anda memulai dengan cepat dalam menghasilkan data dummy yang sesuai dengan kebutuhan Anda.</p>
 
-## Panduan Penggunaan
 
-### Instalasi
+git clone https://github.com/username/repo.git
 
-1. Clone repositori ini ke komputer Anda:
-
-   ```bash
-   git clone https://github.com/username/repo.git
-   
 
