@@ -2,6 +2,8 @@ package step_definitions;
 
 public class InitialAPI {
     public static final String URL = "https://dummyjson.com";
+    public static final String URL_IMAGE = "https://image.dummyjson.com";
+
     public static final String DIR = System.getProperty("user.dir");
 
     public static final String JSON_REQ_BODY = DIR + "/src/test/resources/JSON/JSONReqBody/";
@@ -113,22 +115,58 @@ public class InitialAPI {
 //    Delete a comment
     public static final String Delete_a_comment = URL + "/comments/1";
 
+//    Image
+//    Generate square image
+    public static final String Generate_square_image = URL_IMAGE + "/150";
+//    Generate image with custom width / height
+    public static final String Generate_image_with_custom_width_height = URL_IMAGE + "/200x100";
+//    Generate image with custom text
+    public static final String Generate_image_with_custom_text = URL_IMAGE + "/400x200/008080/ffffff?text=Hello+Peter";
+//    Generate image with custom background color
+    public static final String Generate_image_with_custom_background_color = URL_IMAGE + "/400x200/282828";
+//    Generate image with custom background and text color
+    public static final String Generate_image_with_custom_background_and_text_color = URL_IMAGE + "/400x200/008080/ffffff";
+//    Generate image with different image formats
+    public static final String Generate_image_with_different_image_formats = URL_IMAGE + "/100?type=svg";
+//    Generate image with custom font family
+    public static final String Generate_image_with_custom_font_family = URL_IMAGE + "/400x200/008080/ffffff?text=Hello+Peter!&fontFamily=cookie";
+//    Generate image with custom font size
+    public static final String Generate_image_with_custom_font_size = URL_IMAGE + "/400x200/008080/ffffff?text=Hello+Peter!&fontSize=16";
+
+//    Todos
+//  Get all todos
+    public static final String Get_all_todos = URL + "/todos";
+//    Get a single todos
+    public static final String Get_a_single_todos = URL + "/todos/1";
+//    Get a random todos
+    public static final String Get_a_random_todos = URL + "/todos/random";
+//    Limit and skip todos
+    public static final String Limit_and_skip_todos = URL + "/todos?limit=3&skip=10";
+//    Get all todos by user id
+    public static final String Get_all_todos_by_user_id = URL + "/todos/user/5";
+//    Add a new todos
+    public static final String Add_a_new_todos = URL + "/todos/add";
+//    Update a todos
+    public static final String Update_a_todos = URL + "/todos/1";
+//    Delete a todos
+    public static final String Delete_a_todos = URL + "/todos/1";
+
+//    Quotes
+//    Get all quotes
+    public static final String Get_all_quotes = URL + "/quotes";
+//    Get a single quote
+    public static final String Get_a_single_quote = URL + "/quotes/1";
+//    Get a random quote
+    public static final String Get_a_random_quote = URL + "/quotes/random";
+//    Limit and skip quotes
+    public static final String Limit_and_skip_quotes = URL + "/quotes/quotes?limit=3&skip=10";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//    Mock_HTTP
+//  Mock_HTTP Response
+    public static final String Mock_HTTP_Response = URL + "/http/200";
+//    Custom HTTP Response
+    public static final String Custom_HTTP_Response = URL + "/http/404/Hello_Peter";
 
 
 
